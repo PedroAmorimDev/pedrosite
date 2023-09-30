@@ -1,0 +1,172 @@
+/* Estilos gerais para o corpo da página */
+body {
+    background-color: #ddd9ce; /* Cor de fundo vibrante */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #000000; /* Cor do texto */
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+hr {
+    border: 2px solid #000000; /* Cor das linhas horizontais */
+}
+
+img {
+    border: 1px solid #000000; /* Cor da borda da imagem */
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para os links */
+a {
+    color: #000000; /* Cor dos links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000; /* Cor dos links ao passar o mouse */
+}
+
+/* Estilos para as seções de texto */
+p {
+    color: #000000; /* Cor do texto */
+    font-size: 18px;
+}
+
+em {
+    font-style: italic;
+}
+
+/* Estilos para as listas */
+ul {
+    list-style-type: disc; /* Estilo de marcadores de lista */
+    text-align: left;
+}
+
+li {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+/* Estilos para as tabelas */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 2px solid #fff; /* Cor das bordas das células */
+    padding: 8px;
+    text-align: center;
+}
+
+/* Estilos para as estrelas de classificação */
+td.stars {
+    font-size: 24px;
+    color: purple; /* Cor das estrelas */
+}
+
+/* Estilos para as seções de filmes */
+h3 a {
+    color: black; /* Cor dos links */
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: black; /* Cor dos links ao passar o mouse */
+}
+
+dl {
+    text-align: left;
+    margin: 20px auto;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+dd {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a seção de contato */
+h3 a.btn-contact {
+    background-color: #000000; /* Cor de fundo do botão de contato */
+    color: #000000; /* Cor do texto do botão de contato */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+h3 a.btn-contact:hover {
+    background-color: #000000; /* Cor de fundo do botão de contato ao passar o mouse */
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.image-gallery img {
+    margin: 5px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+
+.controles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.controles button, .controles input {
+    margin: 0 10px;
+}
+
+.play-pause {
+    margin-bottom: 10px;
+}
+
+.comentarios {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+audio, .play-pause {
+    margin-bottom: 10px;
+}
+
+div {
+    text-align: center;
+}
+
+div > input,
+div > textarea,
+div > button {
+    display: block;
+    margin: 10px auto;
+}
+
+#avaliacao button {
+    display: inline-block;
+    margin: 0 5px;
+}
